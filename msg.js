@@ -82,8 +82,8 @@ module.exports = async (msg, sock) => {
 
   if (body.startsWith(".song")) {
     let name = body.replace(".song", "").trim();
-    if (!name) return reply("🎵 Give song name.
-Example: *.song shape of you*");
+    if (!name) return reply("🎵 Give song name");
+Example: *song shape of you*");
 
     reply("⏳ Downloading song...");
 
